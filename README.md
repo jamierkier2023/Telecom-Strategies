@@ -95,7 +95,7 @@ FROM nexa_sat
 GROUP BY 1
 ORDER BY 2;
 ```
-![Revenue by plan level](sandbox:/mnt/data/shot_revenue_by_plan.png)
+<img width="1140" height="527" alt="shot_revenue_by_plan" src="https://github.com/user-attachments/assets/53b3ced4-6181-4404-83ef-8933683878df" />
 
 If **Premium over‑indexes** on revenue relative to its share of users, accelerating Premium adoption is a high‑confidence path to lift **ARPU** quickly without acquiring new customers.
 
