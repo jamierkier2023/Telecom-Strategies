@@ -34,7 +34,6 @@ WHERE churn = 0;
 ```
 <img width="1636" height="527" alt="shot_existing_users" src="https://github.com/user-attachments/assets/5a9de03f-1d58-457e-aaaf-dbabd4357459" />
 
-
 ---
 
 ## Tools
