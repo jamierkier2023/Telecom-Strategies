@@ -61,7 +61,8 @@ SELECT COUNT(customer_id) AS current_users
 FROM nexa_sat
 WHERE churn = 0;
 ```
-![Current users](sandbox:/mnt/data/shot_current_users.png)
+<img width="1047" height="527" alt="shot_current_users" src="https://github.com/user-attachments/assets/a013cae8-4c3f-4692-aaaa-c6c0c3765413" />
+
 
 This gives us the denominator for all adoption, attach, and retention rates. Even modest percentage improvements translate into meaningful absolute gains at this scale.
 
