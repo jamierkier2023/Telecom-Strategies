@@ -113,7 +113,7 @@ FROM nexa_sat
 GROUP BY 1, 2
 ORDER BY 1;
 ```
-![Churn by plan type & level](sandbox:/mnt/data/shot_churn_matrix.png)
+<img width="1388" height="527" alt="shot_churn_matrix" src="https://github.com/user-attachments/assets/fe0186bb-5d33-4461-990d-129f240ab4db" />
 
 Concentrated churn in **Postpaid Basic** suggests two plays: (1) **save‑offers** to stabilize at‑risk cohorts and (2) **guided upgrades** into Premium (particularly where support and extra lines add clear value).
 
