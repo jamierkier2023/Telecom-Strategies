@@ -1,6 +1,6 @@
 # Customer Lifetime Value (CLV) Segmentation — Telecom Growth Strategies
 
-A concise, visual walkthrough that turns raw customer data into decisions. This version speaks to business leaders: it highlights the SQL we used to get the facts, shows the **mini table “screenshots”** for fast comprehension, and draws clear implications for growth and retention.
+A concise, visual walkthrough that turns raw customer data into decisions. This version speaks to business leaders: it highlights the SQL we used to get the facts, shows data tables for fast comprehension, and draws clear implications for growth and retention.
 
 ---
 
