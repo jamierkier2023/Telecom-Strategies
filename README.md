@@ -15,6 +15,43 @@ A beginner-friendly, data-to-insight walkthrough for a telecom provider (NexaSat
 
 ---
 
+# ---------- EDA output templates ----------
+# total current users (single-value)
+df = pd.DataFrame(columns=["current_users"])
+p = base / "eda_current_users.csv"
+df.to_csv(p, index=False)
+assets.append((p.name, "Result of `COUNT(customer_id)` where churn = 0."))
+
+# users by plan level
+df = pd.DataFrame(columns=["plan_level","total_users"])
+p = base / "eda_users_by_plan_level.csv"
+df.to_csv(p, index=False)
+assets.append((p.name, "Users by plan level (active users only)."))
+
+# total revenue
+df = pd.DataFrame(columns=["revenue"])
+p = base / "eda_total_revenue.csv"
+df.to_csv(p, index=False)
+assets.append((p.name, "Total revenue (sum of monthly_bill_amount)."))
+
+# revenue by plan level
+df = pd.DataFrame(columns=["plan_level","revenue"])
+p = base / "eda_revenue_by_plan_level.csv"
+df.to_csv(p, index=False)
+assets.append((p.name, "Revenue by plan level."))
+
+# churn by plan type and level
+df = pd.DataFrame(columns=["plan_level","plan_type","total_customers","churn_count"])
+p = base / "eda_churn_by_plan_type_and_level.csv"
+df.to_csv(p, index=False)
+assets.append((p.name, "Churn counts grouped by plan type and level."))
+
+# avg tenure by plan level
+df = pd.DataFrame(columns=["plan_level","avg_tenure"])
+p = base / "eda_avg_tenure_by_plan_level.csv"
+df.to_csv(p, index=False)
+assets.append((p.name, "Average tenure by plan level."))
+
 ## Data Sources
 
 This project is organized around a single raw table and derived outputs. Populate the raw **PDF-ready** table, run the SQL, and export each **derived PDF**.
@@ -22,6 +59,7 @@ This project is organized around a single raw table and derived outputs. Populat
 ### Raw table (input)
 - **`nexa_sat_template.pdf`** — [download](sandbox:/mnt/data/nexa_sat_template.pdf)  
   Columns: `customer_id, gender, partner, dependents, senior_citizen, call_duration, data_usage, plan_type, plan_level, monthly_bill_amount, tenure_months, multiple_lines, tech_support, churn`
+
 
 ### Derived tables & analysis outputs (PDF)
 - **Existing users (no churn)**  
