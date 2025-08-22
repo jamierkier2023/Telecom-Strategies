@@ -126,7 +126,7 @@ SELECT plan_level, ROUND(AVG(tenure_months), 2) AS avg_tenure
 FROM nexa_sat
 GROUP BY 1;
 ```
-![Average tenure by plan level](sandbox:/mnt/data/shot_avg_tenure.png)
+<img width="1140" height="527" alt="shot_avg_tenure" src="https://github.com/user-attachments/assets/5040bf5f-bb50-4602-b634-a6d6fa52dd50" />
 
 Longer tenures among **Premium** users—paired with the revenue mix above—support a Premium‑first migration strategy for qualified Basic customers.
 
