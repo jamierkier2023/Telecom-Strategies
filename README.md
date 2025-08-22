@@ -86,7 +86,7 @@ We quantify total revenue and its split by plan level.
 SELECT ROUND(SUM(monthly_bill_amount::numeric), 2) AS revenue
 FROM nexa_sat;
 ```
-![Total revenue](sandbox:/mnt/data/shot_total_revenue.png)
+<img width="1047" height="527" alt="shot_total_revenue" src="https://github.com/user-attachments/assets/9b36adf3-e5e9-42d1-abd6-1ac49ae3579a" />
 
 ```sql
 -- revenue by plan level
