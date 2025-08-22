@@ -63,7 +63,6 @@ WHERE churn = 0;
 ```
 <img width="1047" height="527" alt="shot_current_users" src="https://github.com/user-attachments/assets/a013cae8-4c3f-4692-aaaa-c6c0c3765413" />
 
-
 This gives us the denominator for all adoption, attach, and retention rates. Even modest percentage improvements translate into meaningful absolute gains at this scale.
 
 **What is the plan mix among active users?**  
@@ -76,7 +75,7 @@ FROM nexa_sat
 WHERE churn = 0
 GROUP BY 1;
 ```
-![Users by plan level](sandbox:/mnt/data/shot_users_by_plan.png)
+<img width="1140" height="527" alt="shot_users_by_plan" src="https://github.com/user-attachments/assets/afb04e1a-534d-4e14-83df-c5950c30fcc3" />
 
 A **Basic‑heavy** mix signals clear headroom to move qualified customers to Premium. This is the first, simplest growth lever because it builds on existing relationships and pricing logic.
 
