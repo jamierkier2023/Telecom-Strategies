@@ -133,11 +133,6 @@ Longer tenures among **Premium** users—paired with the revenue mix above—sup
 **What’s in each plan—why will customers move?**  
 A concise product snapshot aligns pricing, feature promises, and lock‑ins with the migration story.
 
-<img width="794" height="4146" alt="stitched_vertical_flipped" src="https://github.com/user-attachments/assets/d812f5bc-408f-4fd8-8b8e-2bdf414d6641" />
-
-
-
-
 Clarity on included support and multi‑line value helps position upgrades as **reliable** and **fair**, not just more expensive.
 
 **Who should we prioritize by value?**  
