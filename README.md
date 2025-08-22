@@ -132,13 +132,15 @@ Longer tenures among **Premium** users—paired with the revenue mix above—sup
 
 **What’s in each plan—why will customers move?**  
 A concise product snapshot aligns pricing, feature promises, and lock‑ins with the migration story.
-![Plan catalog (illustrative)](sandbox:/mnt/data/shot_plan_catalog.png)
+<img width="1636" height="4216" alt="plan_catalog" src="https://github.com/user-attachments/assets/8f83d4be-b92d-4c49-a692-c77e528d6434" />
+
 
 Clarity on included support and multi‑line value helps position upgrades as **reliable** and **fair**, not just more expensive.
 
 **Who should we prioritize by value?**  
 A CLV‑style roll‑up helps us focus effort where it compounds.
-![CLV segment overview (illustrative)](sandbox:/mnt/data/shot_segment_scores.png)
+<img width="1636" height="4216" alt="segment_overview" src="https://github.com/user-attachments/assets/de9f0f41-e4cf-4fd4-919d-da9e89e47fef" />
+
 
 In most telecom bases we see four practical segments: **High Value** (protect and expand), **Moderate** (prime for upsell), **Emerging** (nurture), and **At Risk** (stabilize fast). The sizes and economics in your live data will guide exact targets and sequencing.
 
